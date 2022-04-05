@@ -100,7 +100,7 @@ class _ForecasPageState extends State<ForecasPage> {
                         );
                       },
                       onError: (context, error) => Text(error.toString()),
-                      onLoading: (context) => CircularProgressIndicator(),
+                      onLoading: (context) => const CircularProgressIndicator(),
                     )
                   ],
                 ),
